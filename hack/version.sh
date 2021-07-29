@@ -16,6 +16,7 @@
 set -o errexit
 set -o nounset
 set -o pipefail
+set -x
 
 version::get_version_vars() {
     # shellcheck disable=SC1083
